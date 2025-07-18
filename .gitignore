@@ -1,11 +1,15 @@
+
+# Error log files - ignored
 error_log
+
+# share these for now, can change in future if needed
 # db_configuration.php
+# *.PNG
+# *.JPG
+# *.JPEG
+# *.GIF
 
-#*.PNG
-#*.JPG
-#*.JPEG
-#*.GIF
-
+# ignore these - will not sync to GitHubx
 node_modules/
 .env
 .DS_Store

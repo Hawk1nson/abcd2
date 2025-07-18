@@ -223,7 +223,7 @@ $GLOBALS['data'] = mysqli_query($db, $query);
         </table>
     </div>
 </div>
-
+ 
 <!-- /.container -->
 <!-- Footer -->
 <footer class="page-footer text-center">
