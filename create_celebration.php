@@ -21,6 +21,8 @@ include('header.php');
     <h2 id="title">Create a Celebration</h2><br>
 </div>
 
+
+
 <form action="create_the_celebration.php" method="POST" class="form-horizontal" style="width:80%; margin: 0 auto;">
   <div class="form-group">
     <label for="title">Title:</label>
@@ -61,4 +63,9 @@ include('header.php');
     <input class="btn btn-primary" type="submit" name="submit" value="Create Celebration">
   </div>
 </form>
+
+<footer class="page-footer text-center">
+    <br>
+    <p>Created for ICS 325 Summer Project "Team Dophin 🐬"</p>
+</footer>
 

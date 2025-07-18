@@ -92,6 +92,12 @@ if ($row_data->num_rows > 0) {
             </p>
           </div>
         </div>
+
+    <footer class="page-footer text-center">
+      <br>
+      <p>Created for ICS 325 Summer Project "Team Dophin 🐬"</p>
+      <br>
+    </footer>
     <?php }
 } else {
     echo "<div class='container mt-5'><div class='alert alert-warning'>No celebration data found.</div></div>";

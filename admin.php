@@ -52,6 +52,10 @@
         </tr>
     </table>
 </div>
+
+<footer class="page-footer text-center">
+    <p>Created for ICS 325 Summer Project "Team Dophin 🐬"</p>
+</footer>
      
 </body>
 </html>

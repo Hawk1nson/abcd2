@@ -140,3 +140,9 @@ if ($result->num_rows > 0) {
         ?>
     </div>
 </div>
+
+<footer class="page-footer text-center">
+    <br>
+    <p>Created for ICS 325 Summer Project "Team Dophin 🐬"</p>
+    <br>
+</footer>
