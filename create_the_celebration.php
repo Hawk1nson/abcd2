@@ -28,7 +28,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $resource_url = $_POST['resource_url'];
     $image = !empty($_POST['image']) ? $_POST['image'] : 'celebrations_default.png';
 
-    $sql = "INSERT INTO celebrations_tbl (title, description, resource_type, celebration_type, celebration_date, tags, resource_url, image_name)";
+    $sql = "INSERT INTO celebrations_tbl (title, description, resource_type, celebration_type, celebration_date, tags, resource_url, image_name)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("ssssssss", $title, $description, $resource_type, $celebration_type, $celebration_date, $tags, $resource_url, $image);
