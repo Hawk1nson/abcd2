@@ -246,6 +246,16 @@ $res_data = mysqli_query($db, $sql);
     <?php endforeach; ?>
     </span>
 
+<!--Filter by Text-->
+            <span>
+        <span class="sortLinksContainer" style="display:inline-block; margin-right: 1rem;">
+    <label>Filter by Text:</label>
+        <form>
+    <input type="text" id="filterText">
+    <button class="sortLink" type="submit">Submit</button>
+        </form>
+    <span>
+
   <!-- 3) PAGINATION LINKS -->
     <span class="pageNavContainer" style="display:inline-block;">
         <?php if ($page > 1): ?>
