@@ -243,7 +243,7 @@ $res_data = mysqli_query($db, $sql);
     <label>Filter by:</label>
         <?php foreach ($tags as $tag): ?>
         <a href="?tag=<?= urlencode($tag) ?>&limit=<?= $limit ?>&sort=<?= $sort ?>&page=1"
-           class="filterLink<?= isset($_GET['tag']) && $_GET['tag'] === $tag ? ' active' : '' ?>">
+           class="sortLink<?= isset($_GET['tag']) && $_GET['tag'] === $tag ? ' active' : '' ?>">
             <?= htmlspecialchars($tag) ?>
         </a>
     <?php endforeach; ?>
